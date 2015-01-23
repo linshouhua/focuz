@@ -1,8 +1,0 @@
-package com.focus.base.view;
-
-import android.annotation.SuppressLint;
-import android.app.Fragment;
-
-@SuppressLint("NewApi")
-public class BaseFragment extends Fragment {
-}
