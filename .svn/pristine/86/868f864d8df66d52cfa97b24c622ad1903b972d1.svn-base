@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">关注</string>
+    <string name="empty"></string>
+    <string name="fill">壹贰叁肆伍陆柒捌玖零一二三四五六千七百八十九1234567890</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

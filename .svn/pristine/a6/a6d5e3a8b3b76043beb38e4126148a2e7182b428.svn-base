@@ -1,0 +1,13 @@
+package com.focus.base.widget;
+
+import android.content.Context;
+import android.util.AttributeSet;
+import android.widget.LinearLayout;
+
+
+public class ActionBarContainer extends LinearLayout{
+
+    public ActionBarContainer(Context context, AttributeSet attrs) {
+        super(context, attrs);
+    }
+}

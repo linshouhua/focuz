@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    
+    <RelativeLayout 
+	    android:id="@+id/abb_actionbar_id_root"
+	    android:orientation="horizontal"
+	    android:visibility="gone">
+	    <ImageView
+	        android:id="@+id/abb_actionbar_id_back"
+	        android:visibility="gone"/>
+	    <TextView
+	        android:id="@+id/abb_actionbar_id_logo"
+	        android:layout_toRightOf="@+id/abb_actionbar_id_back"
+	        android:visibility="gone"/>
+	    <TextView
+	        android:id="@+id/abb_actionbar_id_title"
+	        android:layout_centerInParent="true"
+	        android:visibility="gone"/>
+	   
+	    <LinearLayout 
+	        android:id="@+id/abb_actionbar_id_right"
+	        android:layout_width="wrap_content"
+    		android:layout_height="match_parent"
+    		android:layout_alignParentRight="true"
+    		android:orientation="horizontal">
+	        
+	    </LinearLayout>
+	    <View 
+	        />
+	</RelativeLayout>
+	
+    <LinearLayout 
+	    android:id="@+id/abb_actionbar_tab_id_root"
+	    android:orientation="horizontal"
+	    android:visibility="gone">
+	    
+	</LinearLayout>
+</LinearLayout>

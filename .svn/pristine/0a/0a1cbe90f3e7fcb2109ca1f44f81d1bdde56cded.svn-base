@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 公共字体大小定义 -->
+	<dimen name="font_lsize">10sp</dimen>
+	<dimen name="font_xlsize">12sp</dimen>
+	<dimen name="font_xxlsize">14sp</dimen>
+	<dimen name="font_msize">16sp</dimen>
+	<dimen name="font_xmsize">18sp</dimen>
+	<dimen name="font_xxmsize">20sp</dimen>
+	<dimen name="font_hsize">22sp</dimen>
+	<dimen name="font_xhsize">24sp</dimen>
+	<dimen name="font_xxhsize">26sp</dimen>
+	
+	<!-- 公共外间距定义 -->
+	<dimen name="margin_lsize">4dp</dimen>
+	<dimen name="margin_xlsize">8dp</dimen>
+	<dimen name="margin_xxlsize">12dp</dimen>
+	<dimen name="margin_msize">16dp</dimen>
+	<dimen name="margin_xmsize">20dp</dimen>
+	<dimen name="margin_xxmsize">24dp</dimen>
+	<dimen name="margin_hsize">28dp</dimen>
+	<dimen name="margin_large">50dp</dimen>
+	
+	<!-- 公共内间距定义 -->
+	<dimen name="padding_lsize">4dp</dimen>
+	<dimen name="padding_xlsize">8dp</dimen>
+	<dimen name="padding_xxlsize">12dp</dimen>
+	<dimen name="padding_msize">16dp</dimen>
+	<dimen name="padding_xmsize">20dp</dimen>
+	<dimen name="padding_xxmsize">24dp</dimen>
+	<dimen name="padding_hsize">28dp</dimen>
+	
+	<!-- 公共宽度定义 -->
+	<dimen name="width_lsize">4dp</dimen>
+	<dimen name="width_divider_line_lsize">0.5dp</dimen>
+	<dimen name="width_divider_line_msize">1dp</dimen>
+	
+	<!-- 公共高度定义 -->
+	<dimen name="height_lsize">4dp</dimen>	
+	<dimen name="height_divider_line_lsize">0.5dp</dimen>
+	<dimen name="height_divider_line_msize">1dp</dimen>
+	<dimen name="height_button_msize">48dp</dimen>
+	<dimen name="height_input_msize">48dp</dimen>
+	
+	<!-- 购物车界面的图片大小 -->
+	<dimen name="image_width">60dp</dimen>
+	<dimen name="image_height">60dp</dimen>
+    
+   
+	
+</resources>

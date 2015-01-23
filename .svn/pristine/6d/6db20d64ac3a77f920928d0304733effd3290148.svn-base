@@ -1,0 +1,29 @@
+package com.focus.base.view;
+
+import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
+import android.view.ViewStub;
+import android.widget.FrameLayout;
+
+import com.focus.R;
+import com.focus.base.widget.ActionBar;
+
+public class BaseActivity extends FragmentActivity {
+    private ActionBar mActionBar;
+    private FrameLayout mConent;
+    @Override
+    protected void onCreate(Bundle arg0) {
+        super.onCreate(arg0);
+        super.setContentView(R.layout.activity_base);
+    }
+
+    @Override
+    public void setContentView(int layoutResID) {
+        ViewStub topStub = (ViewStub)findViewById(R.id.base_id_top);
+        topStub.inflate();
+        /*mActionBar = (ActionBar) findViewById(R.id.base_top_id_actionbar);
+        mConent = (FrameLayout)findViewById(R.id.base_id_content);
+        View view = LayoutInflater.from(this).inflate(layoutResID, null);
+        mConent.addView(view);*/
+    }
+}

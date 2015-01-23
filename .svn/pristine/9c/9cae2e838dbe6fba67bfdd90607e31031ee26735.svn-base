@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <include layout="@layout/layout_line_space" />
+
+    <LinearLayout
+         android:id="@+id/freqGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffffff"
+        android:orientation="horizontal"
+        android:padding="12dp" >
+
+        <TextView
+            android:id="@+id/freq"
+            style="@style/contentTheme"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ic_time"
+            android:drawablePadding="12dp"
+            android:gravity="center_vertical"
+            android:text="更新频率" />
+
+        <TextView
+            android:id="@+id/freqSet"
+            style="@style/infoTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="12dp"
+            android:drawableRight="@drawable/common_right_arrow_ic"
+            android:gravity="center_vertical"
+            android:text="" />
+    </LinearLayout>
+
+    
+    
+    <include layout="@layout/layout_line_space" />
+
+    <LinearLayout
+        android:id="@+id/aboutUsGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffffff"
+        android:orientation="horizontal"
+        android:padding="12dp" >
+
+        <TextView
+            android:id="@+id/aboutUs"
+            style="@style/contentTheme"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ic_aboutus"
+            android:drawablePadding="12dp"
+            android:gravity="center_vertical"
+            android:text="关于我们" />
+
+        <TextView
+            style="@style/infoTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="12dp"
+            android:drawableRight="@drawable/common_right_arrow_ic"
+            android:gravity="center_vertical"
+            android:text="" />
+    </LinearLayout>
+</LinearLayout>

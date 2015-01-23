@@ -1,0 +1,32 @@
+package com.focus.focus.model;
+
+public class FocusInfo {
+    private String title;
+    private Long updateTs;
+    private String url;
+    private String lastMD5;
+    public String getTitle() {
+        return title;
+    }
+    public void setTitle(String title) {
+        this.title = title;
+    }
+    public Long getUpdateTs() {
+        return updateTs;
+    }
+    public void setUpdateTs(Long updateTs) {
+        this.updateTs = updateTs;
+    }
+    public String getUrl() {
+        return url;
+    }
+    public void setUrl(String url) {
+        this.url = url;
+    }
+    public String getLastMD5() {
+        return lastMD5;
+    }
+    public void setLastMD5(String lastMD5) {
+        this.lastMD5 = lastMD5;
+    }
+}
